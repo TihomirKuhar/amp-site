@@ -1,0 +1,4 @@
+footer --> društvene mreže + linkovi 
+pricing u carossel 
+frame sa you tube videom 
+ajax --> drop down na form u; odabir jedne od istih 

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AMP-sistem</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="CSS/style.css"></link>   
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="100" onload="resetForm()">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+            <div class="lang">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html" style="background-color: transparent !important;"><img src="IMG/flag-united-kingdom.png" class="flag" id="flag" alt="ENG.pic"></a></li>
+                    <li><a href="index_DE.html" style="background-color: transparent !important;"><img src="IMG/flag-germany.png" class="flag" alt="DE.pic"></a></li>
+                </ul>
+            </div>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="IMG/F2.png" class="logoImgStyle" alt="logo.pic"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#pricing">PRICING</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+            </div>
+            
+        </div>
+    </nav>
+
+    <!-- JUMBOTRON -->
+    <div class="jumbotron text-center" style="background-color: #4286f4">
+        <h1>AMP-sistem</h1>
+        <p>Quality solutions</p>
+    </div>
+
+    <!-- Container (About Section) -->
+    <div id="about" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-8" style="margin-top:50px;">
+                <h2>About Us</h2><br>
+                <h4>Our company works in digital industry!<br> We are working with : Web Design, Web Development, Application and other programming and design works.</h4><br>
+                <p>We are engaged in both small and large projects.<br>You need LOGO?! We can do that for you! Can we make a video for you, or something in photoshop?! Yes! We can!<br>Our job is to make a project or startup for you, or your company! Its our pleasure!</p>
+                <!--<br><button class="btn btn-default btn-lg">Read More</button>-->
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-education logo"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-grey">
+        <div class="row">
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-info-sign logo slideanim"></span>
+            </div>
+            <div class="col-sm-8">
+                <h2>Our Values</h2><br>
+                <h4><strong>MISSION:</strong> Our mission is to help people with projects or startups for their business. We want people to use the internet and think about how much it can help in their marketing strategy.</h4><br>
+                <p><strong>VISION:</strong> Our vision is to become the leading IT firm on the Croatian market. In parallel, our goal is to develop into a reliable company of quality solutions for business customers in our region and the world.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+    <div id="services" class="container-fluid text-center">
+        <br><br>
+        <h2>SERVICES</h2>
+        <h4>What we offer</h4>
+        <br>
+        <div class="row slideanim">
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-object-align-bottom logo-small"></span>
+                <h4>Web Design</h4>
+                <p>Working on design and graphics!</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-console logo-small"></span>
+                <h4>Web Dev</h4>
+                <p>We are working on front and back end!</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-bullhorn logo-small"></span>
+                <h4>Online Marketing</h4>
+                <p>Managing pages on social sites!</p>
+            </div>
+        </div>
+        <br>
+        <div class="row slideanim">
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-pencil logo-small"></span>
+                <h4>Content Writing</h4>
+                <p>We are writnig the content for you!</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-phone logo-small"></span>
+                <h4>Mobile Apps</h4>
+                <p>We are making IOS and Android apps!</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-print logo-small"></span>
+                <h4 style="color:#303030;">Print and Copy</h4>
+                <p>We do print and copy jobs!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Container (Portfolio Section) -->
+    <div id="portfolio" class="container-fluid text-center bg-grey">
+        <br><br>
+        <h2>Portfolio</h2><br>
+		
+        <h4>What we have created</h4>
+        <div class="row text-center slideanim">
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="IMG/Galerija.png" alt="alt" width="400" height="300">
+                    <p><strong>Book Store Gallery</strong></p>
+                    <p>Book store gallery site, with a database records for Books and Authors</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="IMG/newsletter_new.jpg" alt="alt" width="400" height="300">
+                    <p><strong>Christmass newsletter</strong></p>
+                    <p>Christmas Holidays themed newsletter</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="IMG/Android_new.jpg" alt="alt" width="400" height="300">
+                    <p><strong>Android APP</strong></p>
+                    <p>Android Birthay  card App we made</p>
+                </div>
+            </div>
+        </div><br>
+		
+        <h2>What our customers say</h2>
+        <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <h4>"AMP-sistem have taken care of all our website, design and marketing<br>requirements for a good number of years now and<br> we have been consistently impressed with their efficiency,<br> enthusiasm and attention to detail"<br><br><span>Tomy </span></h4>
+                </div>
+                <div class="item">
+                    <h4>"I have worked with a few website designers over the years<br> and none have interpreted my needs as successfully as e marketing support ltd.<br> They have managed to supply me with the perfect website,<br> one that is easy for my clients to use, looks good and yet is simple for me to update."<br><br><span>Daniel</span></h4>
+                </div>
+                <div class="item">
+                    <h4>"We are delighted with our website and have had a fantastic response from our customers."<br><br><span>Lucas</span></h4>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    
+    <!-- Container (Pricing Section) -->
+    <div id="pricing" class="container-fluid">
+        <br><br>
+        <div class="text-center">
+            <h2>Pricing</h2>
+            <h4>Choose a payment plan that works for you</h4>
+        </div>
+        <div class="row slideanim">
+            <div class="col-sm-4 col-xs-12">
+                <div id="Pricing-panel" class="panel panel-default text-center" >
+                    <div class="panel-heading">
+                        <h1>Basic</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p><strong>1</strong> Web Page</p>
+                        <p><strong>1</strong> Domain Name</p>
+                        <p><strong>1</strong> SQL Database</p>
+                        <p><strong>1</strong> Year of free Maintenance</p>
+                        <p>Up to <strong>5</strong> subpages</p>
+                        <p>Hosting is not included in price</p>
+                    </div>
+                    <div class="panel-footer">
+                        <h3>500$</h3>
+                        <!--<button class="btn btn-lg">Contact for More Info</button>-->
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div id="Pricing-panel" class="panel panel-default text-center" >
+                    <div class="panel-heading">
+                        <h1>Pro</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p><strong>2</strong> Web Pages</p>
+                        <p><strong>2</strong> Domain Names</p>
+                        <p><strong>2</strong> SQL Databases</p>
+                        <p><strong>1</strong> Year of free Maintenance</p>
+                        <p><strong>1</strong> Year free Hosting</p>
+                        <p><strong>Endless</strong> Subpages</p>
+                    </div>
+                    <div class="panel-footer">
+                        <h3>850$</h3>
+                        <!--<button class="btn btn-lg">Contact for More Info</button>-->
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div id="Pricing-panel" class="panel panel-default text-center" >
+                    <div class="panel-heading">
+                        <h1>Premium</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p><strong>3</strong> Web Pages</p>
+                        <p><strong>3</strong> Domain Name</p>
+                        <p><strong>3</strong> SQL Databases</p>
+                        <p><strong>Endless</strong> Maintenance</p>
+                        <p><strong>2</strong> Years of free Hosting</p>
+                        <p><strong>Endless</strong> Subpages</p>
+                    </div>
+                    <div class="panel-footer">
+                        <h3>1200$</h3>
+                        <!--<button class="btn btn-lg">Contact for More Info</button>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Container (Contact Section) -->
+    <div id="contact" class="container-fluid bg-grey">
+        <br><br>
+        <h2 class="text-center">CONTACT US</h2>
+        <div class="row">
+            <div class="col-sm-5">
+                <p>Contact us and we'll get back to you within 48 hours.</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span> Zagreb, CRO</p>
+                <p><span class="glyphicon glyphicon-phone"></span> +385 998403841</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> tkuhar6443@gmail.com</p>
+            </div>
+            <div class="col-sm-7 slideanim">
+                
+                <form  method="POST" action="PHP/mail.php" id="e-mail">
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                        </div>
+                    </div>
+                    <textarea class="form-control" id="comments" name="message" placeholder="Comment" rows="5"></textarea><br>
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <input class="btn btn-primary pull-right" type="submit" value="Send">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Google Maps -->
+    <div id="googleMap" style="height:400px;width:100%;"></div>
+    <script>
+        function myMap() {
+            var myCenter = new google.maps.LatLng(45.808766, 16.039192);
+            var mapProp = {center:myCenter, zoom:11, scrollwheel:false, draggable:true, gestureHandling: 'greedy', mapTypeId:google.maps.MapTypeId.ROADMAP};
+            var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+            var marker = new google.maps.Marker({position:myCenter});
+            marker.setMap(map);
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcXjOMrPxBJD2aUF_8Xi92B6jQ-2dV95A&callback=myMap"></script>
+    <!--
+    To use this code on your website, get a free API key from Google.
+    Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+    -->
+
+    <!-- Footer content -->
+    <footer class="container-fluid text-center">
+        <a href="#myPage" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up" ></span>
+        </a>
+        <!--Social media icons-->
+        <div id="socialMedia" class="row">
+            <div class="col-xs-4">
+                <a href="https://www.facebook.com/AMP-sistem-470922986690727/?modal=admin_todo_tour"><img class="socialMediaIcon" src="IMG/fb_icon.png"></a>
+            </div>
+            <div class="col-xs-4">
+                <a href="https://twitter.com/AmpSistem" ><img class="socialMediaIcon" src="IMG/twitter_icon.png"></a>
+            </div>
+            <div class="col-xs-4">
+                  <a href="https://api.whatsapp.com/send?phone=385977037460"><img class="socialMediaIcon" src="IMG/wapp_icon.png"></a>
+            </div>
+        </div>
+        <br>
+        © 2018 Copyright:
+        <a href="#"> AMP-sistem.hr </a>
+    </footer>
+
+    <script src="JS/app.js"></script>
+    <script>
+        function resetForm() {
+            document.getElementById("e-mail").reset();
+        }
+    </script>
+    
+    
+</body>
+</html>
+
