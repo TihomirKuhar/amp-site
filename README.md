@@ -4,6 +4,13 @@ project site that deals with web deving and hosting
 <table style="width:100%">
   <caption>App gallery</caption>
   <tr>
+    <td><img src="/IMG/site-imgs/amp-en.GIF" alt="amp-site"></td>
+  </tr>
+</table>
+
+<table style="width:100%">
+  <caption>App gallery</caption>
+  <tr>
     <td><img src="/IMG/site-imgs/amp-about.PNG" alt="amp-about"></td>
   </tr>
    <tr>
