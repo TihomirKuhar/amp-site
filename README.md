@@ -22,6 +22,6 @@ project site that deals with web deving and hosting
     <td><img src="/IMG/site-imgs/amp-contact.PNG" alt="amp-contact"></td>
   </tr>
    <tr>
-    <td><img src="/IMG/site-imgs/amp-contact2" alt="amp-contact2"></td>
+    <td><img src="/IMG/site-imgs/amp-contact2.PNG" alt="amp-contact2"></td>
   </tr>
 </table>
